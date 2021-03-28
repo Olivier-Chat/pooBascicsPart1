@@ -14,6 +14,11 @@ class Car {
         $this->energy = $energy;
     }
 
+    public function start ():string
+    {
+        $this->currentSpeed = 5;
+        return "Let's get started";
+    }
     public function forward ():string
     {
         $this->currentSpeed = 30;
